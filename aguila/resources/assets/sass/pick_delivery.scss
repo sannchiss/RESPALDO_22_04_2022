@@ -1,0 +1,70 @@
+		.gouge-hide{
+			max-height: 135px;
+			overflow: hidden;
+			max-width: 300px;
+			position: relative;
+			width: 250px;
+			height: 135px;
+		}
+		.gauge-status-circle{
+			position: absolute;
+			z-index: 999;
+			text-align: center;
+			bottom: 6px;
+			width: 100%;
+
+		}
+		.gauge-status-circle div{
+		}
+		.mid-status{
+			margin-left: 10px !important;
+			margin-right: 10px !important;
+		}
+
+		.status-1{
+			background: rgb(220, 53, 69) !important;
+			animation: status-1 0.5s infinite;
+		}
+		
+		.status-2{
+			background: rgb(255, 121, 7) !important;
+			animation: status-2 0.5s infinite;
+
+		}
+		.status-3{
+			background: rgb(23, 162, 184) !important;
+			animation: status-3 0.5s infinite;		
+		}
+		.status-circle{
+			height: 35px;
+			width: 35px;
+			background: #eee;
+			display: block;
+			margin: o auto;
+			border-radius: 50%;
+			color: white;
+			top: 0;
+			float: left;
+			line-height: 35px;
+			position: relative;
+			left: 25%;
+		}
+		.status-circle span{ font-size: 12px;} 
+
+		@keyframes status-1 {
+		    from { background-color: rgb(220, 53, 69);}
+		    50% { background-color: rgb(220, 53, 69); box-shadow: #ccc 0px -1px 7px 0.1px, inset #de5656 0 -1px 1px, #F60B0B 0 1px 6px;}
+		    to { background-color: rgb(220, 53, 69);}
+		}
+
+		@keyframes status-2 {
+		    from { background-color: rgb(255, 121, 7);}
+		    50% { background-color: rgb(255, 121, 7); box-shadow: #ccc 0px -1px 7px 0.1px, inset rgb(195, 139, 5) 0 -1px 1px, #ce6105 0 1px 6px;}
+		    to { background-color: rgb(255, 121, 7);}
+		}
+		
+		@keyframes status-3 {
+		    from { background-color: rgb(23, 162, 184);}
+		    50% { background-color: rgb(23, 162, 184); box-shadow: #ccc 0px -1px 7px 0.1px, inset rgb(12, 77, 122) 0 -1px 1px, rgb(27, 122, 215) 0 1px 6px;}
+		    to { background-color: rgb(23, 162, 184);}
+		}

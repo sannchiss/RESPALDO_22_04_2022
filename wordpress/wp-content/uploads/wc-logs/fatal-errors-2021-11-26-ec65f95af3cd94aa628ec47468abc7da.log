@@ -1,0 +1,10 @@
+2021-11-26T20:28:06+00:00 CRITICAL Uncaught Requests_Exception: cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received in C:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php:443
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php(179): Requests_Transport_cURL->process_response('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\fedexPuginMasterWoocomerce\lib\RestClient.php(360): Requests_Transport_cURL->request('https://gtstnt....', Array, '{"DOCUMENTAR_EN...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\fedexPuginMasterWoocomerce\lib\RestClient.php(249): RestClientFDX::request('https://gtstnt....', Array, '{"DOCUMENTAR_EN...', 'POST', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\fedexPuginMasterWoocomerce\model\services_model\createEnvio_model.php(133): RestClientFDX::post('https://gtstnt....', Array, '{"DOCUMENTAR_EN...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\fedexPuginMasterWoocomerce\router.php(69): FDX_crearEnvio->creacionEnvio(Array, 'Home.2020')
+#5 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php en la línea 443
+

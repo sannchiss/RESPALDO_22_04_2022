@@ -1,0 +1,215 @@
+2021-12-23T13:46:55+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #1 must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:330
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php(330): array_merge(NULL, NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->load_configuration('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_load_co...')
+#5 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 330
+
+2021-12-23T13:47:10+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #1 must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:330
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php(330): array_merge(NULL, NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->load_configuration('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_load_co...')
+#5 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 330
+
+2021-12-23T13:47:22+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #1 must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:330
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php(330): array_merge(NULL, NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->load_configuration('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_load_co...')
+#5 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 330
+
+2021-12-23T13:50:15+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #1 must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:330
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php(330): array_merge(NULL, NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->load_configuration('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_load_co...')
+#5 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 330
+
+2021-12-23T13:50:24+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #1 must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:330
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php(330): array_merge(NULL, NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->load_configuration('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_load_co...')
+#5 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 330
+
+2021-12-23T13:50:36+00:00 CRITICAL Uncaught Error: Class "SoapClient" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\jeremy-dunn\php-fedex-api-wrapper\src\FedEx\AbstractRequest.php:46
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\wpdesk\fedex-shipping-service\src\FedexShippingService\FedexApi\FedexSender.php(86): FedExVendor\FedEx\AbstractRequest->__construct()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\wpdesk\fedex-shipping-service\src\FedexShippingService\FedexShippingService.php(132): FedExVendor\WPDesk\FedexShippingService\FedexApi\FedexSender->send(Object(FedExVendor\FedEx\RateService\ComplexType\RateRequest))
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\wpdesk\wp-woocommerce-shipping\src\WooCommerceShipping\ShippingMethod\RateMethod\Standard\StandardServiceRateMethod.php(68): FedExVendor\WPDesk\FedexShippingService\FedexShippingService->rate_shipment(Object(FedExVendor\WPDesk\AbstractShipping\Settings\SettingsValuesAsArray), Object(FedExVendor\WPDesk\AbstractShipping\Shipment\Shipment))
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\wpdesk\wp-woocommerce-shipping\src\WooCommerceShipping\ShippingMethod\RateMethod\Standard\StandardServiceRateMethod.php(46): FedExVendor\WPDesk\WooCommerceShipping\ShippingMethod\RateMethod\Standard\StandardServiceRateMethod->add_rates(Object(FedExVendor\WPDesk\FedexShippingService\FedexShippingService), Object(WPDesk\FlexibleShippingFedex\FedexShippingMethod), Object(FedExVendor\WPDesk\WooCommerceShipping\ShippingBuilder\WooCommerceShippingMetaDataBuilder), Object(FedExVendor\WPDesk\WooCommerceShipping\ShippingBuilder\WooCommerceShippingBuilder))
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\wpdesk\wp-woocommerce-shipping\src\WooCommerceShipping\ShippingMethod\Traits\RateWithRateMethodsTrait.php(121): FedExVendor\WPDesk\WooCommerceShipping\ShippingMethod\RateMethod\Standard\StandardServiceRateMethod->handle_rates(Object(WPDesk\FlexibleShippingFedex\FedexShippingMethod), Object(FedExVendor\WPDesk\WooCommerceShipping\ShippingMethod\RateMethod\ErrorLogCatcher), Object(FedExVendor\WPDesk\WooCommerceShipping\ShippingBuilder\WooCommerceShippingMetaDataBuilder), Object(FedExVendor\WPDesk\WooCommerceShipping\ShippingBuilder\WooCommerceShippingBuilder))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\wpdesk\wp-woocommerce-shipping\src\WooCommerceShipping\ShippingMethod.php(144): FedExVendor\WPDesk\WooCommerceShipping\ShippingMethod->handle_rating_using_methods(Object(Psr\Log\NullLogger), Object(FedExVendor\WPDesk\FedexShippingService\FedexShippingService), Array, Object(FedExVendor\WPDesk\WooCommerceShipping\ShippingBuilder\WooCommerceShippingMetaDataBuilder))
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-shipping-method.php(233): FedExVendor\WPDesk\WooCommerceShipping\ShippingMethod->calculate_shipping(Array)
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shipping.php(348): WC_Shipping_Method->get_rates_for_package(Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1420): WC_Shipping->calculate_shipping(Array)
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(339): WC_Cart->calculate_shipping()
+#11 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(850): WC_Cart_Totals->get_shipping_from_cart()
+#12 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(144): WC_Cart_Totals->calculate_shipping_totals()
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#14 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#15 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(301): WC_Cart->calculate_totals()
+#16 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#17 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#18 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1276): do_action('woocommerce_add...', '6512bd43d9caa6e...', 11, 1, 0, Array, Array)
+#19 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(422): WC_Cart->add_to_cart(11, 1, 0, Array)
+#20 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::add_to_cart('')
+#21 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#22 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#23 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_add_to_...')
+#24 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::do_wc_ajax('')
+#25 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(false, Array)
+#26 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#27 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#28 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#29 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#30 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\jeremy-dunn\php-fedex-api-wrapper\src\FedEx\AbstractRequest.php en la línea 46
+
+2021-12-23T13:50:38+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #1 must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:330
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php(330): array_merge(NULL, NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->load_configuration('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_load_co...')
+#5 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 330
+
+2021-12-23T13:51:17+00:00 CRITICAL Uncaught Error: Class "SoapClient" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\jeremy-dunn\php-fedex-api-wrapper\src\FedEx\AbstractRequest.php:46
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\wpdesk\fedex-shipping-service\src\FedexShippingService\FedexApi\FedexSender.php(86): FedExVendor\FedEx\AbstractRequest->__construct()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\wpdesk\fedex-shipping-service\src\FedexShippingService\FedexShippingService.php(132): FedExVendor\WPDesk\FedexShippingService\FedexApi\FedexSender->send(Object(FedExVendor\FedEx\RateService\ComplexType\RateRequest))
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\wpdesk\wp-woocommerce-shipping\src\WooCommerceShipping\ShippingMethod\RateMethod\Standard\StandardServiceRateMethod.php(68): FedExVendor\WPDesk\FedexShippingService\FedexShippingService->rate_shipment(Object(FedExVendor\WPDesk\AbstractShipping\Settings\SettingsValuesAsArray), Object(FedExVendor\WPDesk\AbstractShipping\Shipment\Shipment))
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\wpdesk\wp-woocommerce-shipping\src\WooCommerceShipping\ShippingMethod\RateMethod\Standard\StandardServiceRateMethod.php(46): FedExVendor\WPDesk\WooCommerceShipping\ShippingMethod\RateMethod\Standard\StandardServiceRateMethod->add_rates(Object(FedExVendor\WPDesk\FedexShippingService\FedexShippingService), Object(WPDesk\FlexibleShippingFedex\FedexShippingMethod), Object(FedExVendor\WPDesk\WooCommerceShipping\ShippingBuilder\WooCommerceShippingMetaDataBuilder), Object(FedExVendor\WPDesk\WooCommerceShipping\ShippingBuilder\WooCommerceShippingBuilder))
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\wpdesk\wp-woocommerce-shipping\src\WooCommerceShipping\ShippingMethod\Traits\RateWithRateMethodsTrait.php(121): FedExVendor\WPDesk\WooCommerceShipping\ShippingMethod\RateMethod\Standard\StandardServiceRateMethod->handle_rates(Object(WPDesk\FlexibleShippingFedex\FedexShippingMethod), Object(FedExVendor\WPDesk\WooCommerceShipping\ShippingMethod\RateMethod\ErrorLogCatcher), Object(FedExVendor\WPDesk\WooCommerceShipping\ShippingBuilder\WooCommerceShippingMetaDataBuilder), Object(FedExVendor\WPDesk\WooCommerceShipping\ShippingBuilder\WooCommerceShippingBuilder))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\wpdesk\wp-woocommerce-shipping\src\WooCommerceShipping\ShippingMethod.php(144): FedExVendor\WPDesk\WooCommerceShipping\ShippingMethod->handle_rating_using_methods(Object(Psr\Log\NullLogger), Object(FedExVendor\WPDesk\FedexShippingService\FedexShippingService), Array, Object(FedExVendor\WPDesk\WooCommerceShipping\ShippingBuilder\WooCommerceShippingMetaDataBuilder))
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-shipping-method.php(233): FedExVendor\WPDesk\WooCommerceShipping\ShippingMethod->calculate_shipping(Array)
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shipping.php(348): WC_Shipping_Method->get_rates_for_package(Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1420): WC_Shipping->calculate_shipping(Array)
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(339): WC_Cart->calculate_shipping()
+#11 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(850): WC_Cart_Totals->get_shipping_from_cart()
+#12 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(144): WC_Cart_Totals->calculate_shipping_totals()
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#14 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#15 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(301): WC_Cart->calculate_totals()
+#16 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#17 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#18 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1276): do_action('woocommerce_add...', '6512bd43d9caa6e...', 11, 1, 0, Array, Array)
+#19 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(422): WC_Cart->add_to_cart(11, 1, 0, Array)
+#20 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::add_to_cart('')
+#21 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#22 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#23 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_add_to_...')
+#24 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::do_wc_ajax('')
+#25 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(false, Array)
+#26 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#27 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#28 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#29 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#30 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\jeremy-dunn\php-fedex-api-wrapper\src\FedEx\AbstractRequest.php en la línea 46
+
+2021-12-23T13:51:38+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #1 must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:330
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php(330): array_merge(NULL, NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->load_configuration('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_load_co...')
+#5 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 330
+
+2021-12-23T13:51:48+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #1 must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:330
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php(330): array_merge(NULL, NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->load_configuration('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_load_co...')
+#5 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 330
+
+2021-12-23T13:51:59+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #1 must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:330
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php(330): array_merge(NULL, NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->load_configuration('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_load_co...')
+#5 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 330
+
+2021-12-23T13:53:33+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #1 must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:330
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php(330): array_merge(NULL, NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->load_configuration('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_load_co...')
+#5 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 330
+
+2021-12-23T13:54:11+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #1 must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:330
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php(330): array_merge(NULL, NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->load_configuration('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_load_co...')
+#5 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 330
+
+2021-12-23T13:54:17+00:00 CRITICAL Uncaught Error: Class "SoapClient" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\jeremy-dunn\php-fedex-api-wrapper\src\FedEx\AbstractRequest.php:46
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\wpdesk\fedex-shipping-service\src\FedexShippingService\FedexApi\FedexSender.php(86): FedExVendor\FedEx\AbstractRequest->__construct()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\wpdesk\fedex-shipping-service\src\FedexShippingService\FedexShippingService.php(132): FedExVendor\WPDesk\FedexShippingService\FedexApi\FedexSender->send(Object(FedExVendor\FedEx\RateService\ComplexType\RateRequest))
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\wpdesk\wp-woocommerce-shipping\src\WooCommerceShipping\ShippingMethod\RateMethod\Standard\StandardServiceRateMethod.php(68): FedExVendor\WPDesk\FedexShippingService\FedexShippingService->rate_shipment(Object(FedExVendor\WPDesk\AbstractShipping\Settings\SettingsValuesAsArray), Object(FedExVendor\WPDesk\AbstractShipping\Shipment\Shipment))
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\wpdesk\wp-woocommerce-shipping\src\WooCommerceShipping\ShippingMethod\RateMethod\Standard\StandardServiceRateMethod.php(46): FedExVendor\WPDesk\WooCommerceShipping\ShippingMethod\RateMethod\Standard\StandardServiceRateMethod->add_rates(Object(FedExVendor\WPDesk\FedexShippingService\FedexShippingService), Object(WPDesk\FlexibleShippingFedex\FedexShippingMethod), Object(FedExVendor\WPDesk\WooCommerceShipping\ShippingBuilder\WooCommerceShippingMetaDataBuilder), Object(FedExVendor\WPDesk\WooCommerceShipping\ShippingBuilder\WooCommerceShippingBuilder))
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\wpdesk\wp-woocommerce-shipping\src\WooCommerceShipping\ShippingMethod\Traits\RateWithRateMethodsTrait.php(121): FedExVendor\WPDesk\WooCommerceShipping\ShippingMethod\RateMethod\Standard\StandardServiceRateMethod->handle_rates(Object(WPDesk\FlexibleShippingFedex\FedexShippingMethod), Object(FedExVendor\WPDesk\WooCommerceShipping\ShippingMethod\RateMethod\ErrorLogCatcher), Object(FedExVendor\WPDesk\WooCommerceShipping\ShippingBuilder\WooCommerceShippingMetaDataBuilder), Object(FedExVendor\WPDesk\WooCommerceShipping\ShippingBuilder\WooCommerceShippingBuilder))
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\wpdesk\wp-woocommerce-shipping\src\WooCommerceShipping\ShippingMethod.php(144): FedExVendor\WPDesk\WooCommerceShipping\ShippingMethod->handle_rating_using_methods(Object(Psr\Log\NullLogger), Object(FedExVendor\WPDesk\FedexShippingService\FedexShippingService), Array, Object(FedExVendor\WPDesk\WooCommerceShipping\ShippingBuilder\WooCommerceShippingMetaDataBuilder))
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-shipping-method.php(233): FedExVendor\WPDesk\WooCommerceShipping\ShippingMethod->calculate_shipping(Array)
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shipping.php(348): WC_Shipping_Method->get_rates_for_package(Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#9 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1420): WC_Shipping->calculate_shipping(Array)
+#10 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(339): WC_Cart->calculate_shipping()
+#11 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(850): WC_Cart_Totals->get_shipping_from_cart()
+#12 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(144): WC_Cart_Totals->calculate_shipping_totals()
+#13 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#14 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#15 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(301): WC_Cart->calculate_totals()
+#16 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#17 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#18 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1276): do_action('woocommerce_add...', '6512bd43d9caa6e...', 11, 1, 0, Array, Array)
+#19 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(422): WC_Cart->add_to_cart(11, 1, 0, Array)
+#20 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::add_to_cart('')
+#21 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#22 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#23 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(90): do_action('wc_ajax_add_to_...')
+#24 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WC_AJAX::do_wc_ajax('')
+#25 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(false, Array)
+#26 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#27 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#28 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#29 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#30 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\flexible-shipping-fedex\vendor_prefixed\jeremy-dunn\php-fedex-api-wrapper\src\FedEx\AbstractRequest.php en la línea 46
+

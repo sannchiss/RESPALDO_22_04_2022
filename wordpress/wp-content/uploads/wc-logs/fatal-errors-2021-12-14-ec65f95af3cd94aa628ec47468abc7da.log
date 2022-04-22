@@ -1,0 +1,163 @@
+2021-12-14T21:00:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, class FedexPlugin does not have a method "configuration" in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_configu...')
+#3 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php en la línea 303
+
+2021-12-14T21:04:38+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, class FedexPlugin does not have a method "configuration" in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_configu...')
+#3 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php en la línea 303
+
+2021-12-14T21:06:01+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, class FedexPlugin does not have a method "configuration" in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_configu...')
+#3 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php en la línea 303
+
+2021-12-14T21:07:59+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, class FedexPlugin does not have a method "configuration" in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_configu...')
+#3 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php en la línea 303
+
+2021-12-14T21:35:47+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:273
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->configuration('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_configu...')
+#4 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 273
+
+2021-12-14T21:45:32+00:00 CRITICAL Uncaught TypeError: unserialize(): Argument #1 ($data) must be of type string, array given in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:269
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php(269): unserialize(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->configuration('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_configu...')
+#5 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 269
+
+2021-12-14T21:48:05+00:00 CRITICAL Uncaught TypeError: unserialize(): Argument #1 ($data) must be of type string, array given in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:269
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php(269): unserialize(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->configuration('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_configu...')
+#5 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 269
+
+2021-12-14T21:48:51+00:00 CRITICAL Uncaught TypeError: unserialize(): Argument #1 ($data) must be of type string, array given in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:269
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php(269): unserialize(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->configuration('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_configu...')
+#5 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 269
+
+2021-12-14T21:52:58+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:269
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->configuration('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_configu...')
+#4 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 269
+
+2021-12-14T22:05:30+00:00 CRITICAL Uncaught TypeError: parse_str(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:271
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php(271): parse_str(Array, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->configuration('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_configu...')
+#5 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 271
+
+2021-12-14T22:23:23+00:00 CRITICAL Uncaught TypeError: unserialize(): Argument #2 ($options) must be of type array, bool given in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:270
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php(270): unserialize('accountNumber=1...', true)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->configuration('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_configu...')
+#5 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 270
+
+2021-12-14T22:25:15+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:271
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->configuration('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_configu...')
+#4 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 271
+
+2021-12-14T23:08:04+00:00 CRITICAL Uncaught Error: Call to a member function addMessage() on null in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:291
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->configuration('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_configu...')
+#4 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 291
+
+2021-12-14T23:10:31+00:00 CRITICAL Uncaught Error: Call to a member function addMessage() on null in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:291
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->configuration('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_configu...')
+#4 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 291
+
+2021-12-14T23:11:15+00:00 CRITICAL Uncaught Error: Call to a member function addMessage() on null in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:293
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->configuration('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_configu...')
+#4 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 293
+
+2021-12-14T23:11:43+00:00 CRITICAL Uncaught Error: Call to a member function addMessage() on null in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:293
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->configuration('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_configu...')
+#4 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 293
+
+2021-12-14T23:12:45+00:00 CRITICAL Uncaught Error: Call to a member function addMessage() on null in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:295
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->configuration('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_configu...')
+#4 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 295
+
+2021-12-14T23:15:18+00:00 CRITICAL Uncaught Error: Call to a member function addMessage() on null in C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php:295
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): FedexPlugin->configuration('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_configu...')
+#4 {main}
+  thrown en C:\xampp\htdocs\wordpress\wp-content\plugins\fedex-shipping-intra_MX\fedex-shipping-intra_MX.php en la línea 295
+
